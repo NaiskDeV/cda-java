@@ -1,3 +1,8 @@
+/*Nom du répertoire : TP3
+Nom du projet : Tp3Exo3
+Nom de la classe : Tp3Exo3
+Auteur : Laure */
+
 package tp3;
 
 public class Tp3Exo3
