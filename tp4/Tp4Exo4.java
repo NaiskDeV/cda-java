@@ -28,7 +28,8 @@ public class Tp4Exo4 {
 		else {
 			System.out.print(n+" n'est pas premier");
 		}
-
+		clavier.close();
 	}
 
 }
+
