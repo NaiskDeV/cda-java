@@ -32,6 +32,7 @@ public class Tp4Exo5 {
 		if (tentative==5) {
 			System.out.println("Essais incorrects trop nombreux, veuillez contacter le service client pour réinitialiser le code d'accès :)");
 		}
+		clavier.close();
 	}
 
 }
