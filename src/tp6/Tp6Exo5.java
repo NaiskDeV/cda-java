@@ -23,7 +23,7 @@ public class Tp6Exo5 {
 		String grille = "<html> <table border = '1'>";
 		grille = grille + "<tr><th>Dec</th><th>Hex</th><th>Car</th><th>   </th><th>Dec</th><th>Hex</th><th>Car</th><th>   </th><th>Dec</th><th>Hex</th><th>Car</th></tr>" ;
 		
-		for(int i=32; i<=64;i++) {
+		for(int i=32; i<=63;i++) {
 			valeur_dec= i;
 			valeur_car = (char) valeur_dec;
 			valeur_hexa = Integer.toHexString(valeur_dec);
