@@ -13,14 +13,14 @@ public class Tp6Exo1 {
 		
 		Scanner clavier = new Scanner(System.in);
 		System.out.println("Quel est votre texte?");
-		String texte = clavier.next();
+		String texte = clavier.nextLine();
 
 		int compteur = 0;
-		int index = texte.indexOf("e");
 		
-		while (index>=0) {
-			index = texte.indexOf("e", index+1);
-			compteur++;
+		for(int i=0; i<texte.length(); i++) {
+			if (texte.charAt(i) == 'e') {
+				compteur++;
+			}
 		}
 		
 		System.out.println(compteur);
