@@ -1,4 +1,4 @@
-/*Nom du répertoire : TP5
+/*Nom du répertoire : TP6
 Nom du projet : Tp6Exo1
 Nom de la classe : Tp6Exo1
 Auteur : Laure */
