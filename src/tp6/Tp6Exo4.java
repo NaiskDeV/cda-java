@@ -14,16 +14,18 @@ public class Tp6Exo4 {
 
 		Scanner clavier = new Scanner(System.in);
 		System.out.println("Entrez une chaîne de caractère à trier");
-		String chaine = clavier.next();
-		int n=chaine.length();
-		char Tab[]=chaine.toCharArray();
+		String chaine = clavier.nextLine();
+		
+		String Tab[]=chaine.split(" ");
+		int n=Tab.length;
+		
 		
 		boolean flag=false;
 		while(flag==false) {
 			flag=true;
 			for(int i=1; i<n; i++) {
-				if (Tab[i-1]>Tab[i]) {
-					char temp = Tab[i];
+				if (Tab[i-1].compareTo(Tab[i])>0) {
+					String temp = Tab[i];
 					Tab[i]=Tab[i-1];
 					Tab[i-1]=temp;
 					flag=false;
@@ -31,9 +33,11 @@ public class Tp6Exo4 {
 			}
 		}
 		
-		String resultat = new String(Tab);
+		for (int i=0; i<n; i++) {
+			System.out.println(Tab[i]);	
+		}
 		
-		System.out.println(resultat);
+		
 		clavier.close();
 	}
 }
