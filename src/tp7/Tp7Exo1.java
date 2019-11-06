@@ -1,3 +1,8 @@
+/*Nom du répertoire : TP7
+Nom du projet : Tp7Exo1
+Nom de la classe : Tp7Exo1
+Auteur : Laure */
+
 package tp7;
 
 import java.util.Scanner;
