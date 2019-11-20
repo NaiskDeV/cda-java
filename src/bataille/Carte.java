@@ -3,7 +3,7 @@ package bataille;
 public class Carte {
 	String valeur;
 	String couleur;
-	String test;
+	
 	
 	public void Carte (String valeur, String couleur) {
 		this.valeur = valeur;
