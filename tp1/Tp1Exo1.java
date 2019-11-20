@@ -1,4 +1,4 @@
-public class MaClasse {
+public class Tp1Exo1 {
 
 	public static void main(String[] args) {
 		System.out.println("Hello Wolrd");
