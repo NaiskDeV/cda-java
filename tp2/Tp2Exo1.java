@@ -20,3 +20,4 @@ public class Tp2Exo1 {
 		lecture_clavier.close();
 
 	}
+}
